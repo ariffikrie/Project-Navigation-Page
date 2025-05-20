@@ -1,10 +1,16 @@
-import Projects from './components/Projects';
+// import Projects from './components/Projects';
+import "@radix-ui/themes/styles.css";
+import { Theme } from "@radix-ui/themes";
 
 function App() {
   return (
-    <div className="App">
-      <Projects />
-    </div>
+    <html>
+      <body>
+        <Theme accentColor="indigo">
+          {/* Project */}
+        </Theme>
+      </body>
+    </html>
   );
 }
 
