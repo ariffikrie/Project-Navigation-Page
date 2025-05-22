@@ -5,9 +5,9 @@ function App() {
   return (
     <html>
       <body>
-        <div>
+        <>
           <EvervaultCard text="/Project" />
-        </div>
+        </>
       </body>
     </html>
   );
