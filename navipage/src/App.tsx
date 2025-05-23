@@ -1,15 +1,14 @@
 import { EvervaultCard } from "./components/ui/evervault-card";
+import Block from "./components/block";
 import "@radix-ui/themes/styles.css";
 
 function App() {
   return (
-    <html>
-      <body>
-        <>
-          <EvervaultCard text="/Project" />
-        </>
-      </body>
-    </html>
+    <>
+      <EvervaultCard>
+        <Block />
+      </EvervaultCard>
+    </>
   );
 }
 
